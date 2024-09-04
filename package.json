@@ -1,0 +1,28 @@
+{
+  "name": "lazzaretti-s-vscode-themes",
+  "displayName": "Lazzaretti's VsCode Themes",
+  "description": "Made by and for igorlazzaretti.com",
+  "publisher": "IgorLazzaretti",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "icon": "icon.ico",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lazzaretti's-Plenatech",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lazzaretti's-Plenatech.json"
+      },
+      {
+        "label": "Lazzaretti's-Win11",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lazzaretti's-Win11.json"
+      }
+    ]
+  }
+}
